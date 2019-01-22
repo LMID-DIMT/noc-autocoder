@@ -17,7 +17,7 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
 ### Data Science Environment Setup
 
-  1. Setting-up a Hadoop cluster on CentOS 7 
+  1. [Setting-up a Hadoop cluster on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Setting-up-Hadoop-cluster-on-CentOS-7) 
 
 ### Building the Classifier Model
 
