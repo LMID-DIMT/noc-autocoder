@@ -27,6 +27,12 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
 ### Building the Classifier Model
 
+_Work in progress (Coming Soon)_
+
 ### Classifier Model Evaluation
 
+_Work in progress (Coming Soon)_
+
 ### Productionizing Machine Learning Model
+
+_Work in progress (Coming Soon)_
