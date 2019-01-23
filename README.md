@@ -21,7 +21,7 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
   + [Single-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Single-Node-Hadoop-Installation-on-CentOS-7)
 
-  + [Multi-Node Hadoop Installation on CentOS 7](Multi-Node-Hadoop-Installation-on-CentOS-7)
+  + [Multi-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Multi-Node-Hadoop-Installation-on-CentOS-7)
 
 2. [Installing and configuring Apache Mahout for Hadoop](https://github.com/LMID-DIMT/noc-autocoder/wiki/Installing-and-configuring-Apache-Mahout-for-Hadoop)
 
