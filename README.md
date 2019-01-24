@@ -17,13 +17,15 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
 ### Data Science Environment Setup
 
-1. You can install Hadoop on a single machine/VM or on a cluster (multinode).
+1. Depending on your computing requirement and the volume of data used for processing, Hadoop provides a very flexible and scalable solution to suit your needs. Steps for installing Apache Hadoop on a single machine/VM or on a cluster (multinode) are provided below.
 
-  + [Single-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Single-Node-Hadoop-Installation-on-CentOS-7)
+  + [Single-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Single-Node-Hadoop-Installation-on-CentOS-7) (Single-machine computing)
 
-  + [Multi-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Multi-Node-Hadoop-Installation-on-CentOS-7)
+  + [Multi-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Multi-Node-Hadoop-Installation-on-CentOS-7) (Parallel computing)
 
-2. [Installing and configuring Apache Mahout for Hadoop](https://github.com/LMID-DIMT/noc-autocoder/wiki/Installing-and-configuring-Apache-Mahout-for-Hadoop)
+2. Apache Mahout is a scalable production-grade open-source Machine Learning library that runs on top of Hadoop. Mahout has established itself as a frontrunner in the field of machine learning technologies and has currently been adopted by prominent tech companies like Twitter, Yahoo, Foursquare, Intel, Adobe, Linked.in, and the list goes on.
+
+  + [Installing and configuring Apache Mahout for Hadoop](https://github.com/LMID-DIMT/noc-autocoder/wiki/Installing-and-configuring-Apache-Mahout-for-Hadoop)
 
 ### Building the Classifier Model
 
@@ -33,6 +35,6 @@ _Work in progress (Coming Soon)_
 
 _Work in progress (Coming Soon)_
 
-### Productionizing Machine Learning Model
+### Productionizing Machine Learning Models
 
 _Work in progress (Coming Soon)_
