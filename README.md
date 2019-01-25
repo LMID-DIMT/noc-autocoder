@@ -65,21 +65,22 @@ _Work in progress (Coming Soon)_
 
 ### Practical and real-world implementations of the NOC Autocoder Machine Learning model in production
 
-+ Production Ready:
++ Production-ready:
 
   + [Resume/CV to NOC Recommender](https://clmi-explore-icmt.ca/viz?page=home&lang=en) - A tool that recommends occupations by copy-pasting your resume/CV.
 
-  + [Chatbot LISA](https://clmi-explore-icmt.ca/viz?page=chat-lisa) - L.I.S.A. is the LMI Information and Support Assistant that presents Labour Market Information interactively such as available jobs, wages and employment outlook using conversational user interface.
+  + [Chatbot LISA](https://clmi-explore-icmt.ca/viz?page=chat-lisa) - L.I.S.A. is the _LMI Information and Support Assistant_ that presents Labour Market Information with interactive data visualization using conversational user interface.
 
-  + [Chatbot NIC](https://clmi-explore-icmt.ca/viz?page=chat-nic) - N.I.C. is NOC Information Companion that helps you find your NOC using plain language.
+  + [Chatbot NIC](https://clmi-explore-icmt.ca/viz?page=chat-nic) - N.I.C. is _NOC Information Companion_ that helps you find your NOC using plain language.
 
   + Facebook Messenger Bots featuring NIC and LISA
 
 + Proof-of-concept
 
- + Alexa Skill for LMI - Getting LMI through Alexa enabled device
+  + Alexa Skill for LMI - Getting LMI through Alexa enabled device
 
- + RocketChat LISA Chatbot - Porting LISA to RocketChat using Hubot template
+  + RocketChat LISA Chatbot - Porting LISA to RocketChat using Hubot template
+
 
 
 
