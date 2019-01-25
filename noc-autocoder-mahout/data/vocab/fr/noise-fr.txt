@@ -1,0 +1,13 @@
+alberta
+colombie-britannique
+manitoba
+nouveau-nrunswick
+terre-neuve-et-nabrador
+nouvelle-écosse
+territoires du nord-ouest
+nunavut
+ontario
+île-du-prince-édouard
+québec
+saskatchewan
+yukon
