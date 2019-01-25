@@ -10,6 +10,9 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
   + Apache Hadoop
   + Apache Mahout
   + Java
+- **Web Service (Production)**
+  + Jersey (RESTful API)
+  + Apache Tomcat
 
 ### Datasets
 
@@ -96,5 +99,7 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 + [https://mahout.apache.org](https://mahout.apache.org/)
 
 + [https://en.wikipedia.org/wiki/Apache_Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)
+
++ [https://jersey.github.io/](https://jersey.github.io/)
 
 + [https://clmi-explore-icmt.ca/viz?page=tech&lang=en#ai](https://clmi-explore-icmt.ca/viz?page=tech&lang=en#ai)
