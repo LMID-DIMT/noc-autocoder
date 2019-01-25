@@ -32,34 +32,31 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
   + Data cleaning and preprocessing
 
    + remove non-ASCII characters
-   + normalize text  (_i.e. convert all text to lower classifier_)
+   + normalize text  _(i.e. convert all text to lowercase, remove accents)_
    + remove stop-words
    + remove irrelevant keywords _(e.g. city names, province names, etc.)_
    + word stemming
+   + fix malformed words
    + strip extra white spaces
 
+### Selecting a text classification algorithm
 
-  + Selecting a text classification algorithm
+The  **Naive  Bayes**  algorithm  is  a  probabilistic  classification  algorithm.  It  makes  its  decisions  about  which  class  to  assign  to  an  input  document  using  probabilities  derived  from  training  data.  The  training  process  analyzes  the relationship between words in the training documents and categories, and then categories and the entire training set. The available facts are collected using calculations based on Bayes Theorem to produce the probability that a collection of words (a document) belongs in a certain class.
 
-    + The  Naive  Bayes  algorithm  is  a  probabilistic  classification  algorithm
-.  It  makes  its  decisions  about  which  class  to  
-assign  to  an  input  document  using  probabilities  derived  from  training  data.  The  training  process  analyzes  the  
-relationship between words in the training documents and categories, and then categories and the ent
-ire training
-set. The available facts are collected using calculations based on Bayes’
- Theorem to produce the probability that a
-collection of words (a document) belongs in a certain class.
+### Loading the training set into Hadoop
+
+1. Copy preprocessed training set from local machine to HDFS _(Hadoop Distributed File System)_
+
+Example:
+```
+$ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
+```
+
+### Building and testing the NOC Autocoder classifier model
+
+[Step by step guide in building the NOC2016 Autocoder classifier model](https://github.com/LMID-DIMT/noc-autocoder/wiki/Building-the-Classifier-Model-with-Mahout)
 
 
-  + Loading the training set into Hadoop
-
-### Building the Classifier Model
-
-_Work in progress (Coming Soon)_
-
-### Classifier Model Evaluation
-
-_Work in progress (Coming Soon)_
 
 ### Productionizing Machine Learning Models
 
