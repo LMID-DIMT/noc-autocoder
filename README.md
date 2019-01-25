@@ -47,6 +47,8 @@ The  **Naive  Bayes**  algorithm  is  a  probabilistic  classification  algorith
 
 1. Copy preprocessed training set from local machine to HDFS _(Hadoop Distributed File System)_
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download the NOC 2016 preprocessed dataset](https://github.com/LMID-DIMT/noc-autocoder/tree/master/noc-autocoder-mahout/data/noc2016_corpus)
+
 Example:
 ```
 $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
