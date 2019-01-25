@@ -67,13 +67,13 @@ _Work in progress (Coming Soon)_
 
 + Production Ready:
 
- + [Resume/CV to NOC Recommender](https://clmi-explore-icmt.ca/viz?page=home&lang=en) - A tool that recommends occupations by copy-pasting your resume/CV.
+  + [Resume/CV to NOC Recommender](https://clmi-explore-icmt.ca/viz?page=home&lang=en) - A tool that recommends occupations by copy-pasting your resume/CV.
 
- + [Chatbot LISA](https://clmi-explore-icmt.ca/viz?page=chat-lisa) - L.I.S.A. is the LMI Information and Support Assistant that presents Labour Market Information interactively such as available jobs, wages and employment outlook using conversational user interface.
+  + [Chatbot LISA](https://clmi-explore-icmt.ca/viz?page=chat-lisa) - L.I.S.A. is the LMI Information and Support Assistant that presents Labour Market Information interactively such as available jobs, wages and employment outlook using conversational user interface.
 
- + [Chatbot NIC](https://clmi-explore-icmt.ca/viz?page=chat-nic) - N.I.C. is NOC Information Companion that helps you find your NOC using plain language.
+  + [Chatbot NIC](https://clmi-explore-icmt.ca/viz?page=chat-nic) - N.I.C. is NOC Information Companion that helps you find your NOC using plain language.
 
- + Facebook Messenger Bots featuring NIC and LISA
+  + Facebook Messenger Bots featuring NIC and LISA
 
 + Proof-of-concept
 
