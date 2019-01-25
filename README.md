@@ -17,15 +17,41 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
 ### Data Science Environment Setup
 
-1. Depending on your computing requirement and the volume of data used for processing, Hadoop provides a very flexible and scalable solution to suit your needs. Steps for installing Apache Hadoop on a single machine/VM or on a cluster (multinode) are provided below.
++ Depending on your computing requirement and the volume of data used for processing, Hadoop provides a very flexible and scalable solution to suit your needs. Steps for installing Apache Hadoop on a single machine/VM or on a cluster (multinode) are provided below.
 
-  + [Single-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Single-Node-Hadoop-Installation-on-CentOS-7) (Single-machine computing)
+  + [Single-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Single-Node-Hadoop-Installation-on-CentOS-7) (Single node computing)
 
-  + [Multi-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Multi-Node-Hadoop-Installation-on-CentOS-7) (Parallel computing)
+  + [Multi-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Multi-Node-Hadoop-Installation-on-CentOS-7) (Parallel computing for Big Data)
 
-2. Apache Mahout is a scalable production-grade open-source Machine Learning library that runs on top of Hadoop. Mahout has established itself as a frontrunner in the field of machine learning technologies and has currently been adopted by prominent tech companies like Twitter, Yahoo, Foursquare, Intel, Adobe, Linked.in, and the list goes on.
++ Apache Mahout is a scalable production-grade open-source Machine Learning library that runs on top of Hadoop. Mahout has established itself as a frontrunner in the field of machine learning technologies and has currently been adopted by prominent tech companies like Twitter, Yahoo, Foursquare, Intel, Adobe, Linked.in, and the list goes on.
 
   + [Installing and configuring Apache Mahout for Hadoop](https://github.com/LMID-DIMT/noc-autocoder/wiki/Installing-and-configuring-Apache-Mahout-for-Hadoop)
+
+### Preparing the training set for Machine Learning
+
+  + Data cleaning and preprocessing
+
+   + remove non-ASCII characters
+   + normalize text  (_i.e. convert all text to lower classifier_)
+   + remove stop-words
+   + remove irrelevant keywords _(e.g. city names, province names, etc.)_
+   + word stemming
+   + strip extra white spaces
+
+
+  + Selecting a text classification algorithm
+
+    + The  Naive  Bayes  algorithm  is  a  probabilistic  classification  algorithm
+.  It  makes  its  decisions  about  which  class  to  
+assign  to  an  input  document  using  probabilities  derived  from  training  data.  The  training  process  analyzes  the  
+relationship between words in the training documents and categories, and then categories and the ent
+ire training
+set. The available facts are collected using calculations based on Bayes’
+ Theorem to produce the probability that a
+collection of words (a document) belongs in a certain class.
+
+
+  + Loading the training set into Hadoop
 
 ### Building the Classifier Model
 
