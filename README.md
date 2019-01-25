@@ -58,6 +58,21 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 
 
 
-### Productionizing Machine Learning Models
+### Building applications and scaling Machine Learning models for production
 
 _Work in progress (Coming Soon)_
+
+
+### Practical and real-world implementations of the NOC Autocoder Machine Learning model in production
+
++ [Resume/CV to NOC Recommender](https://clmi-explore-icmt.ca/viz?page=home&lang=en)
+
++ [Chatbot LISA](https://clmi-explore-icmt.ca/viz?page=chat-lisa)
+
++ [Chatbot NIC](https://clmi-explore-icmt.ca/viz?page=chat-nic)
+
+
+***
+### Reference:
+
++ [https://clmi-explore-icmt.ca/viz?page=tech&lang=en#ai](https://clmi-explore-icmt.ca/viz?page=tech&lang=en#ai)
