@@ -60,16 +60,20 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 
 ### Building applications and scaling Machine Learning models for production
 
-_Work in progress (Coming Soon)_
-
++ Architecture
+  + _Work in progress (Coming Soon)_
++ Data Science Technology Integration
+  + _Work in progress (Coming Soon)_
++ Productionizing Machine Learning Models
+  + _Work in progress (Coming Soon)_
 
 ### Practical and real-world implementations of the NOC Autocoder Machine Learning model in production
 
 + Production-ready:
 
-  + [Resume/CV to NOC Recommender](https://clmi-explore-icmt.ca/viz?page=home&lang=en) - A tool that recommends occupations by copy-pasting your resume/CV.
+  + [Resume/CV to NOC Recommender](https://clmi-explore-icmt.ca/viz?page=home&lang=en) - A tool that recommends occupations with your resume/CV as input. Click the _Find a NOC code_ button and copy-paste your resume/CV to get occupation recommendations.
 
-  + [Chatbot LISA](https://clmi-explore-icmt.ca/viz?page=chat-lisa) - L.I.S.A. is the _LMI Information and Support Assistant_ that presents Labour Market Information with interactive data visualization using conversational user interface.
+  + [Chatbot LISA](https://clmi-explore-icmt.ca/viz?page=chat-lisa) - L.I.S.A. is the _LMI Information and Support Assistant_ that presents Labour Market Information with interactive data visualization using conversational user interface. Extending the NOC Autocoder capability by integrating A.I./NLP (Natural Language Processing) to handle human-like conversation between man and machine.
 
   + [Chatbot NIC](https://clmi-explore-icmt.ca/viz?page=chat-nic) - N.I.C. is _NOC Information Companion_ that helps you find your NOC using plain language.
 
