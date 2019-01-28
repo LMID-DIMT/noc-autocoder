@@ -8,12 +8,18 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
   + JVM (Java Virtual Machine)
 - **Data Science**
   + Apache Hadoop
-  + Apache Mahout
+  + Apache Mahout 0.13.0
   + Java
 - **Web Service (Production)**
   + Jersey (RESTful API)
   + Apache Tomcat
 
+```
+Note:
+The the new version of noc-autocoder classifier model uses Apache Spark as its computing engine replacing Hadoop MapReduce.
+Apache Spark is the recommended out-of-the-box distributed back-end, or can be extended to other distributed backends
+and features a Modular Native Solvers for CPU/GPU/CUDA acceleration.
+```
 ### Datasets
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download NOC 2016 datasets ](https://open.canada.ca/data/dataset/f1f287de-1208-490d-9faf-302d343df0eb)
@@ -26,7 +32,7 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
   + [Multi-Node Hadoop Installation on CentOS 7](https://github.com/LMID-DIMT/noc-autocoder/wiki/Multi-Node-Hadoop-Installation-on-CentOS-7) (Parallel computing for Big Data)
 
-+ Apache Mahout is a scalable production-grade open-source Machine Learning library that runs on top of Hadoop. Mahout has established itself as a frontrunner in the field of machine learning technologies and has currently been adopted by prominent tech companies like Twitter, Yahoo, Foursquare, Intel, Adobe, Linked.in, and the list goes on.
++ Apache Mahout is a scalable production-grade open-source Machine Learning library that runs on top of Hadoop. Mahout has established itself as a frontrunner in the field of machine learning technologies and has currently been adopted by prominent tech companies like Twitter, Facebook, Yahoo, Foursquare, Intel, Adobe, Linked.in, and the list goes on.
 
   + [Installing and configuring Apache Mahout for Hadoop](https://github.com/LMID-DIMT/noc-autocoder/wiki/Installing-and-configuring-Apache-Mahout-for-Hadoop)
 
@@ -41,6 +47,12 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
     + word stemming
     + fix malformed words
     + strip extra white spaces
+
+
+  + Feature extraction
+    + convert directory of documents to sequence file format
+    + create vectors from sequence file
+    + create normalized TF-IDF vectors using ngram models
 
 ### Selecting a text classification algorithm
 
@@ -67,7 +79,7 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 
 + Architecture
   + _Work in progress (Coming Soon)_
-+ Data Science Technology Integration
++ Machine Learning Workflow
   + _Work in progress (Coming Soon)_
 + Productionizing Machine Learning Models
   + _Work in progress (Coming Soon)_
