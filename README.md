@@ -34,13 +34,13 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
   + Data cleaning and preprocessing
 
-   + remove non-ASCII characters
-   + normalize text  _(i.e. convert all text to lowercase, remove accents)_
-   + remove stop-words
-   + remove irrelevant keywords _(e.g. city names, province names, etc.)_
-   + word stemming
-   + fix malformed words
-   + strip extra white spaces
+    + remove non-ASCII characters
+    + normalize text  _(i.e. convert all text to lowercase, remove accents)_
+    + remove stop-words
+    + remove irrelevant keywords _(e.g. city names, province names, etc.)_
+    + word stemming
+    + fix malformed words
+    + strip extra white spaces
 
 ### Selecting a text classification algorithm
 
@@ -82,7 +82,7 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 
   + [Chatbot NIC](https://clmi-explore-icmt.ca/viz?page=chat-nic) - N.I.C. is _NOC Information Companion_ that helps you find your NOC using plain language.
 
-  + NOC Autocoder RESTful API - Available as a web service. Coming soon to GC API Store for public release.
+  + NOC Autocoder RESTful API - Available as a web service.
 
   + Facebook Messenger Bots featuring NIC and LISA
 
