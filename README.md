@@ -8,8 +8,8 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
   + JVM (Java Virtual Machine)
 - **Data Science**
   + Apache Hadoop
-  + Apache Mahout 0.13.0
-  + Java
+  + Apache Mahout
+  + Java Enterprise (J2EE)
 - **Web Service (Production)**
   + Jersey (RESTful API)
   + Apache Tomcat
@@ -76,9 +76,9 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 ### Building applications and scaling Machine Learning models for production
 
 + Architecture
-  + _Work in progress (Coming Soon)_
+  + [Implementation of a scalable enterprise-grade Machine Learning applications to production environment](https://github.com/LMID-DIMT/noc-autocoder/blob/master/docs/DataScience-Architecture.pdf)
 + Machine Learning Workflow
-  + _Work in progress (Coming Soon)_
+  + [Machine Learning Workflow using parallel computing and Big Data](https://github.com/LMID-DIMT/noc-autocoder/blob/master/docs/Machine-Learning-Workflow.pdf)
 + Productionizing Machine Learning Models
   + _Work in progress (Coming Soon)_
 
@@ -111,6 +111,8 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 + [https://mahout.apache.org](https://mahout.apache.org/)
 
 + [https://en.wikipedia.org/wiki/Apache_Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)
+
++ [https://spark.apache.org](https://spark.apache.org/)
 
 + [https://jersey.github.io/](https://jersey.github.io/)
 
