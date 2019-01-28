@@ -16,7 +16,7 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
 
 
 **Update:**
-The new version of noc-autocoder classifier model uses Apache Spark as its computing engine replacing Hadoop MapReduce. Apache Spark is the recommended out-of-the-box distributed back-end, or can be extended to other distributed backends. Apache Mahout now supports Modular Native Solvers for CPU/GPU/CUDA acceleration.
+The new version of noc-autocoder classifier model uses Apache Spark as its computing engine replacing Hadoop MapReduce. Apache Spark is the recommended out-of-the-box distributed back-end, or can be extended to other distributed backends. Current version of Apache Mahout now supports Modular Native Solvers for CPU/GPU/CUDA acceleration.
 
 ### Datasets
 
@@ -37,7 +37,6 @@ The new version of noc-autocoder classifier model uses Apache Spark as its compu
 ### Preparing the training set for Machine Learning
 
   + Data cleaning and preprocessing
-
     + remove non-ASCII characters
     + normalize text  _(i.e. convert all text to lowercase, remove accents)_
     + remove stop-words
@@ -80,7 +79,7 @@ $ hdfs dfs -copyFromLocal ~/raw_data/noc2016_corpus /user/servo/raw_data
 + Machine Learning Workflow
   + [Machine Learning Workflow using parallel computing and Big Data](https://github.com/LMID-DIMT/noc-autocoder/blob/master/docs/Machine-Learning-Workflow.pdf)
 + Productionizing Machine Learning Models
-  + _Work in progress (Coming Soon)_
+  + [Deploying the NOC Autocoder ML model to production](https://github.com/LMID-DIMT/noc-autocoder/wiki/Productionizing-Machine-Learning-Models)
 
 ### Practical and real-world implementations of the NOC Autocoder Machine Learning model in production
 
