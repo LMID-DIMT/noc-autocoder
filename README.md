@@ -14,12 +14,10 @@ The National Occupation Classification (NOC) Autocoder API is use to classify oc
   + Jersey (RESTful API)
   + Apache Tomcat
 
-```
-Note:
-The the new version of noc-autocoder classifier model uses Apache Spark as its computing engine replacing Hadoop MapReduce.
-Apache Spark is the recommended out-of-the-box distributed back-end, or can be extended to other distributed backends
-and features a Modular Native Solvers for CPU/GPU/CUDA acceleration.
-```
+
+**Update:**
+The new version of noc-autocoder classifier model uses Apache Spark as its computing engine replacing Hadoop MapReduce. Apache Spark is the recommended out-of-the-box distributed back-end, or can be extended to other distributed backends. Apache Mahout now supports Modular Native Solvers for CPU/GPU/CUDA acceleration.
+
 ### Datasets
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download NOC 2016 datasets ](https://open.canada.ca/data/dataset/f1f287de-1208-490d-9faf-302d343df0eb)
